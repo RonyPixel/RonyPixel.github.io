@@ -42281,7 +42281,7 @@ return!1},
 $S:506}
 A.T_.prototype={
 G(a){var s=null,r=A.am8(a),q=$.fV(),p=A.G(a).p1.ai5(B.WX,B.l9,B.UZ,B.Y_,B.zD,B.Xv,B.Xf,B.zF,B.XR,B.Wj).agw(B.j,B.j),o=$.eR(),n=$.ay8(),m=$.aNa()
-return new A.Bl(new A.BI("/",A.b_j(),"Rohan",A.wt(r,s,A.LW(B.l,B.af,B.cV,s,s,s,B.l,n,s,s,q,s,s,s,o,s,s,s,m,s,s,s,s,s,s,s,q,s,s,s,s,o,s,s,s,s,m,s,s,s,s,s,s,s,s,s,s,s,s,s),q,"ShantellSans",B.y,B.nJ,B.Jv,q,new A.wr(o,o,o),p,!0,A.aH5(A.b7())),!1,new A.a3s(),s),s)}}
+return new A.Bl(new A.BI("/",A.b_j(),"My Portfolio",A.wt(r,s,A.LW(B.l,B.af,B.cV,s,s,s,B.l,n,s,s,q,s,s,s,o,s,s,s,m,s,s,s,s,s,s,s,q,s,s,s,s,o,s,s,s,s,m,s,s,s,s,s,s,s,s,s,s,s,s,s),q,"ShantellSans",B.y,B.nJ,B.Jv,q,new A.wr(o,o,o),p,!0,A.aH5(A.b7())),!1,new A.a3s(),s),s)}}
 A.w5.prototype={
 J(){return"SlidePosition."+this.b}}
 A.RV.prototype={}
