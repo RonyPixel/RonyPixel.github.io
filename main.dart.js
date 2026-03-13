@@ -42356,7 +42356,7 @@ o=o==null?r:o.cP(B.ah)
 s=t.p
 o=A.cv(A.b([q,B.bf,A.dm(B.j,this.d,p,1,"Background Story".toUpperCase(),r,o,1/0)],s),r,r,r)
 p=t.N
-p=A.bH(A.b([A.ba("I'm a passionate cross-platform mobile developer with over 4 years of experience building high-performance Flutter and React Native applications. I thrive in collaborative, fast-paced environments where innovation and user experience are at the core. I'm known for my clean coding practices, proactive problem-solving, and constant curiosity \u2014 often exploring emerging technologies, automation tools, and AI-driven development to stay ahead of the curve. I'm not just committed to writing better code, but to helping teams deliver better products and experiences.",r,r,r,r,r,r,A.G(a).p1.y,r,r,r,r,r),B.ay,A.ba("I am an IT graduate with a passion for technology and software development.",r,r,r,r,r,r,A.G(a).p1.y,r,r,r,r,r),B.hZ,A.ba("I started working as a Flutter Developer since 2021. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently, I've published my first state management package: Pulse-X and animated button library: Pretty Animated Buttons.",r,r,r,r,r,r,A.G(a).p1.y,r,r,r,r,r),B.ay,A.ba("What I Love To Do".toUpperCase(),r,r,r,r,r,r,A.G(a).p1.as,r,r,r,r,r),B.c5,A.Fq(B.zU,A.b([new A.lW(B.IU,A.ai(a,"Software\nEngineering","Software Engineering",r,p),r),B.ID,B.IB,new A.lW(B.IR,A.ai(a,"80's,90's\nMusic","80's,90's Music",r,p),r),B.IC,new A.lW(B.IP,A.ai(a,"Exploring\nmore...","Exploring more...",r,p),r)],s),B.zV,10,10)],s),B.D,r,r)
+p=A.bH(A.b([A.ba("I'm a passionate cross-platform full stack ai engineer with over 5 years of experience building high-performance Flutter and React Native applications. I thrive in collaborative, fast-paced environments where innovation and user experience are at the core. I'm known for my clean coding practices, proactive problem-solving, and constant curiosity \u2014 often exploring emerging technologies, automation tools, and AI-driven development to stay ahead of the curve. I'm not just committed to writing better code, but to helping teams deliver better products and experiences.",r,r,r,r,r,r,A.G(a).p1.y,r,r,r,r,r),B.ay,A.ba("I am an IT graduate with a passion for technology and software development.",r,r,r,r,r,r,A.G(a).p1.y,r,r,r,r,r),B.hZ,A.ba("I started working as a Flutter Developer since 2021. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently, I've published my first state management package: Pulse-X and animated button library: Pretty Animated Buttons.",r,r,r,r,r,r,A.G(a).p1.y,r,r,r,r,r),B.ay,A.ba("What I Love To Do".toUpperCase(),r,r,r,r,r,r,A.G(a).p1.as,r,r,r,r,r),B.c5,A.Fq(B.zU,A.b([new A.lW(B.IU,A.ai(a,"Software\nEngineering","Software Engineering",r,p),r),B.ID,B.IB,new A.lW(B.IR,A.ai(a,"80's,90's\nMusic","80's,90's Music",r,p),r),B.IC,new A.lW(B.IP,A.ai(a,"Exploring\nmore...","Exploring more...",r,p),r)],s),B.zV,10,10)],s),B.D,r,r)
 return A.bH(A.b([o,B.d0,A.azY(new A.br(A.fX(a,8,r),p,r),this.e,B.i_)],s),B.D,r,r)}}
 A.yN.prototype={
 ad(){return new A.FE(null,null)}}
@@ -42593,7 +42593,7 @@ c.push(A.cT(e,A.ee(A.a3b(new A.a1(A.aJ(B.t,f.e,e),new A.dS(h,l),k),j,B.ah,1,1,l,
 s=A.W(a,e,b).w
 r=A.W(a,e,b).w
 p=A.ai(a,24,70,e,q)
-c.push(A.cT(e,A.aCp(new A.a1(A.aJ(B.t,f.w,e),new A.dS(h,B.ht),k),p,B.cj,10,1,"mobile tech enthusiast".toUpperCase(),B.y),e,e,e,r.a.a*0.08,s.a.b*0.48,e))
+c.push(A.cT(e,A.aCp(new A.a1(A.aJ(B.t,f.w,e),new A.dS(h,B.ht),k),p,B.cj,10,1,"mobile & ai tech enthusiast".toUpperCase(),B.y),e,e,e,r.a.a*0.08,s.a.b*0.48,e))
 s=A.W(a,e,b).w
 r=A.W(a,e,b).w
 p=A.dn(e,e,B.r,e,e,new A.c9(l,e,e,e,e,e,B.de),e,10,e,e,e,e,10)
@@ -42852,7 +42852,7 @@ q=A.dm(B.j,this.c,r,1,"About Me".toUpperCase(),s,q,1/0)
 return A.bH(A.b([new A.br(A.jg(a,A.ai(a,20,40,s,t.u),20),new A.Dq(3,q,s),s),A.a3d(B.j,this.d,r,A.W(a,s,t.w).w.a.b*0.4,s,!0,s,B.cI,6)],t.p),s,s,s)}}
 A.S6.prototype={
 G(a){var s=A.ai(a,A.G(a).p1.y,A.G(a).p1.x,null,t._)
-return new A.Fc("I specialize in Mobile Technologies and highly passionate about developing quality applications, open-source works and AI.",B.Y,s==null?null:s.FI(B.j,B.bp),B.aQ,null)}}
+return new A.Fc("I specialize in Mobile & Generative AI Technologies and highly passionate about developing quality applications, open-source works and AI.",B.Y,s==null?null:s.FI(B.j,B.bp),B.aQ,null)}}
 A.z2.prototype={
 ad(){return new A.FN(A.b([],t.cM),null,null)}}
 A.FN.prototype={
@@ -43538,7 +43538,7 @@ g=A.ai(a,q,A.fL(A.cv(A.b([n,A.an4(A.fL(new A.br(A.jg(l,20,i),o,i),i),g),j.Mz()],
 j.c.toString
 o=A.cv(A.b([B.Ik,A.ba(" with much ",i,i,i,i,i,i,B.l9.bL(s),i,i,i,i,i),B.J1],m),i,i,B.E)
 j.c.toString
-s=A.bH(A.b([g,o,B.ay,A.ba("\xa9\ufe0f 2025 Rohan Gupta",i,i,i,i,i,i,B.l9.bL(s),i,i,i,i,i),B.c5],m),i,i,i)
+s=A.bH(A.b([g,o,B.ay,A.ba("\xa9\ufe0f 2026 Rohan Gupta",i,i,i,i,i,i,B.l9.bL(s),i,i,i,i,i),B.c5],m),i,i,i)
 o=j.at
 g=A.W(a,i,p).w
 return new A.jZ(new A.aqs(j),A.cn(A.cH(A.b([h,A.bH(A.b([r,A.hr(s,i,i,o,i,A.jg(a,A.ai(a,10,80,i,t.u),i),g.a.a)],m),i,i,i)],m),i),A.W(a,i,p).w.a.b,A.W(a,i,p).w.a.a),B.ZR)}}
@@ -43612,7 +43612,7 @@ s=k.d
 s===$&&A.a()
 s=A.dm(B.j,s,A.G(a).fy,1,"Flutter &",j,i,1/0)
 g=A.dm(B.j,k.d,A.G(a).fy,1,"React-Native developer",j,i,1/0)
-p=A.dm(B.j,k.d,A.G(a).fy,10,"  Hi, I'm Rohan Gupta!\n    - a passionate mobile developer\n    - an IT student from India\n    - an avid reader\n  ",j,A.G(a).p1.y,1/0)
+p=A.dm(B.j,k.d,A.G(a).fy,10,"  Hi, I'm Rohan Gupta!\n    - a full stack ai-engineer\n    - an IT student from India\n    - an avid reader\n  ",j,A.G(a).p1.y,1/0)
 o=A.aD7(B.nE,"See my work",k.a.c)
 n=t.u
 m=A.zu(a,A.ai(a,12,10,j,n))
