@@ -1,58 +1,53 @@
+<!DOCTYPE html>
+<html>
 <head>
   <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="Rohan's Portfolio" content="Rohan Gupta | Full Stack Engineer specializing in Flutter, React Native, FastAPI, Node.js and AI-powered systems including Generative AI, RAG pipelines and LLM integrations.">
 
-  <!-- Primary SEO -->
-  <title>Rohan Gupta | Full Stack Engineer | Flutter, FastAPI, AI Systems</title>
-
-  <meta name="description" content="Rohan Gupta - Full Stack Engineer with 5+ years experience building mobile applications, backend systems and AI-powered products using Flutter, FastAPI, Node.js, Generative AI, RAG pipelines and LLM integrations.">
-
-  <meta name="keywords" content="
-  Flutter Developer,
-  Full Stack Engineer,
-  Mobile Developer,
-  FastAPI Developer,
-  Node.js Developer,
-  React Native Developer,
-  AI Engineer,
-  Generative AI,
-  RAG Pipelines,
-  LLM Integrations,
-  Backend Developer,
-  Mobile App Developer
-  ">
-
-  <meta name="author" content="Rohan Gupta">
-
-  <!-- Open Graph (LinkedIn / Facebook preview) -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourdomain.com">
-  <meta property="og:title" content="Rohan Gupta | Full Stack Engineer">
-  <meta property="og:description" content="Full Stack Engineer specializing in Flutter, FastAPI, Node.js and AI-powered systems including RAG pipelines and LLM integrations.">
-  <meta property="og:image" content="preview.png">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://yourdomain.com">
-  <meta property="twitter:title" content="Rohan Gupta | Full Stack Engineer">
-  <meta property="twitter:description" content="Mobile + Backend + AI engineer building scalable products using Flutter, FastAPI, Node.js and Generative AI.">
-  <meta property="twitter:image" content="preview.png">
-
-  <!-- iOS -->
+  <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Rohan Gupta Portfolio">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Rohan Gupta | Full Stack Engineer">
+  <meta name="description" content="Full Stack Engineer with 5+ years of experience building mobile applications, backend systems and AI-powered products using Flutter, React Native, FastAPI, Node.js, Generative AI, RAG pipelines and LLM integrations.">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-portfolio-url.com/">
+  <meta property="og:title" content="Rohan Gupta | Full Stack Engineer">
+  <meta property="og:description" content="Building mobile apps, backend systems and AI-powered solutions using Flutter, FastAPI, Node.js, Generative AI and RAG pipelines.">
+  <meta property="og:image" content="favicon.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://your-portfolio-url.com/">
+  <meta property="twitter:title" content="Rohan Gupta | Full Stack Engineer">
+  <meta property="twitter:description" content="Mobile + Backend + AI engineer building scalable products with Flutter, FastAPI, Node.js, Generative AI and RAG pipelines.">
+  <meta property="twitter:image" content="favicon.png">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <!-- Manifest -->
+  <title>Rohan Gupta | Full Stack Engineer</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- Flutter Loader -->
+  <script type="application/javascript">
+      function openLink(url, target, isAsync=false) {
+        var is_safari = /^(?!.*chrome).*safari/i.test(navigator.userAgent.toLowerCase());
+        if (is_safari && isAsync) {
+          window.location.href = url;
+        } else {
+          window.open(url, target);
+        }
+      }
+  </script>
+
   <script>
     const serviceWorkerVersion = "1790865413";
   </script>
@@ -61,5 +56,103 @@
   <link rel="preload" href="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.wasm" as="fetch" crossOrigin="anonymous">
   <script src="flutter.js" defer></script>
 
+  <style>
+    html{
+      background:#F4F4EF;
+    }
+    body{
+      display:flex;
+      align-items:center;
+      justify-content: center;
+    }
+    #icon{
+    margin: auto; display: block;
+    }
+    .loading{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+    }
+    .loading-label{
+      font-size: 18px;
+      font-weight: normal;
+      text-align: center;
+      font-style: normal;
+      font-color: black;
+      animation-name: changing;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease;
+    }
+
+    @keyframes changing{
+
+    }
+  </style>
+
   <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+
 </head>
+
+<body>
+
+<div class="loading" id="loader">
+  <lord-icon id="icon"
+          src="https://cdn.lordicon.com/fmpamzwr.json"
+          trigger="loop"
+          colors="primary:#000000,secondary:#ffc738,tertiary:#f24c00"
+          style="width:200px;height:200px">
+  </lord-icon>
+    <p class="loading-label"></p>
+</div>
+
+<script>
+
+const texts = [
+"Compiling Flutter widgets...",
+"Loading AI modules...",
+"Preparing backend services...",
+"Optimizing UI components...",
+"Almost there..."
+];
+
+const element = document.querySelector('p.loading-label');
+let i=0;
+
+const listener = e => {
+  i = i < texts.length - 1 ? i+1 : 0;
+  element.innerHTML  = texts[i];
+};
+
+element.innerHTML = texts[0];
+element.addEventListener('animationiteration', listener, false);
+
+window.addEventListener('load', function(ev) {
+
+  _flutter.loader.loadEntrypoint({
+    serviceWorker: {
+      serviceWorkerVersion: serviceWorkerVersion,
+    },
+
+    onEntrypointLoaded: function(engineInitializer) {
+
+      engineInitializer.initializeEngine().then(function(appRunner) {
+
+          const loader = document.getElementById("loader");
+          loader.remove();
+
+          appRunner.runApp();
+
+      });
+    }
+  });
+
+});
+
+</script>
+
+</body>
+</html>
