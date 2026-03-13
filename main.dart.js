@@ -43610,8 +43610,8 @@ q=t.p
 r=A.cn(A.cH(A.b([g,A.ais(A.dn(j,j,B.r,j,j,new A.c9(B.l,j,j,j,A.b([new A.e7(0.5,B.lN,s,B.h,50)],t.sq),j,B.de),j,j,j,j,j,j,j),r)],q),j),400,400)
 s=k.d
 s===$&&A.a()
-s=A.dm(B.j,s,A.G(a).fy,1,"Flutter &",j,i,1/0)
-g=A.dm(B.j,k.d,A.G(a).fy,1,"React-Native developer",j,i,1/0)
+s=A.dm(B.j,s,A.G(a).fy,1,"Full Stack Engineer &",j,i,1/0)
+g=A.dm(B.j,k.d,A.G(a).fy,1,"Generative AI developer",j,i,1/0)
 p=A.dm(B.j,k.d,A.G(a).fy,10,"  Hi, I'm Rohan Gupta!\n    - a full stack ai-engineer\n    - an IT student from India\n    - an avid reader\n  ",j,A.G(a).p1.y,1/0)
 o=A.aD7(B.nE,"See my work",k.a.c)
 n=t.u
